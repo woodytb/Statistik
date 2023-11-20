@@ -7,7 +7,7 @@ import pandas as pd
 
 df_list = []
 # Dataset:
-a = pd.DataFrame({ 'group' : np.repeat('A',500), 'value': np.random.normal(13, 1.2, 500) })
+a = pd.DataFrame({ 'group' : np.repeat('A',500), 'value': np.random.normal(13, 1., 500) })
 b = pd.DataFrame({ 'group' : np.repeat('B',500), 'value': np.random.normal(13, 1.2, 500) })
 c = pd.DataFrame({ 'group' : np.repeat('C',500), 'value': np.random.normal(18, 1.2, 500) })
 d = pd.DataFrame({ 'group' : np.repeat('D',20), 'value': np.random.normal(25, 4, 20) })
